@@ -1,0 +1,16 @@
+### Footprint positions - created on 2026-08-17T19:15:49 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                   Package                                                             PosX       PosY       Rot  Side
+C1        1000uF                C_Radial_D8.0mm_H11.5mm_P3.50mm                                 143.7600  -112.0700  -90.0000  top
+D1        1N4007                D_DO-41_SOD81_P10.16mm_Horizontal                               131.4067   -94.2300  -90.0000  top
+D2        1N4007                D_DO-41_SOD81_P10.16mm_Horizontal                               131.4200  -108.4200  -90.0000  top
+D3        1N4007                D_DO-41_SOD81_P10.16mm_Horizontal                               135.0400   -94.1200  -90.0000  top
+D4        1N4007                D_DO-41_SOD81_P10.16mm_Horizontal                               135.0533  -108.2600  -90.0000  top
+D5        LED                   LED_D5.0mm                                                      146.4450   -98.9700    0.0000  top
+J1        Screw_Terminal_01x02  TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal   122.1025  -100.4250   90.0000  top
+J2        Screw_Terminal_01x02  TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal   122.2225  -113.6550   90.0000  top
+R1        10k                   R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                141.1100   -93.9700  -90.0000  top
+R2        2.2k                  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                140.5800  -106.3600    0.0000  top
+## End
