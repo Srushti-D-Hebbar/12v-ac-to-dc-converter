@@ -5,7 +5,7 @@ A compact two-layer PCB designed in KiCad for converting a 12V AC input into an 
 ---
 ## Overview
 
-The circuit uses four 1N4007 diodes arranged as a full-wave bridge rectifier to convert the AC input into pulsating DC. A 1000µF electrolytic capacitor smooths the rectified waveform, while a 10kΩ bleeder resistor provides a discharge path when the input power is removed. An LED with a current-limiting resistor indicates the presence of the DC output.
+The circuit uses four 1N4007 diodes arranged as a full-wave bridge rectifier to convert the AC input into pulsating DC. A 1000µF electrolytic capacitor smooths the rectified output, while a 10kΩ bleeder resistor provides a discharge path when the input power is removed. An LED with a current-limiting resistor indicates the presence of the DC output.
 
 The output is **unregulated DC** and its voltage depends on the AC input and load.
 
@@ -24,26 +24,26 @@ The output is **unregulated DC** and its voltage depends on the AC input and loa
 ---
 ## Schematic
 
-![Schematic](ac_dc_converter_sch.png)
+![Schematic](images/ac_dc_converter_sch.png)
 
 ---
 ## PCB Design
 
 ### Front
 
-![PCB Front](ac_dc_converter_front.png)
+![PCB Front](images/ac_dc_converter_front.png)
 
 ### Back
 
-![PCB Back](ac_dc_converter_back.png)
+![PCB Back](images/ac_dc_converter_back.png)
 
 ### Front Layout
 
-![Front Layout](ac_dc_converter_layout_front.png)
+![Front Layout](images/ac_dc_converter_layout_front.png)
 
 ### Back Layout
 
-![Back Layout](ac_dc_converter_layout_back.png)
+![Back Layout](images/ac_dc_converter_layout_back.png)
 
 ---
 ## PCB Specifications
@@ -81,6 +81,7 @@ The output is **unregulated DC** and its voltage depends on the AC input and loa
 - PCB routing and track management
 - Electrical Rules Check (ERC)
 - Design Rules Check (DRC)
+- Gerber and manufacturing file generation
 - PCB visualization and 3D inspection
 - Understanding of bridge rectification and capacitor-filtered DC supplies
 
@@ -91,7 +92,7 @@ The output is **unregulated DC** and its voltage depends on the AC input and loa
 - Add a voltage regulator for a fixed DC output
 - Add input and output test points
 - Add reverse-polarity/output protection
-- Improve terminal block mechanical protection
+- Improve terminal block strain relief and mechanical protection
 
 ---
 ## License
@@ -105,4 +106,4 @@ See the [LICENSE](LICENSE) file for details.
 
 **Srushti D Hebbar**
 
-[GitHub](https://github.com/Srushti-D-Hebbar)
+GitHub: Srushti-D-Hebbar
